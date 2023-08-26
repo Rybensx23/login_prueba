@@ -6,11 +6,11 @@ const btnActualizar = document.getElementById('btnActualizar')
 const context = canvas.getContext('2d');
 
 const data = {
-    labels: [], // Aquí irán las etiquetas
+    labels: [], 
     datasets: [
         {
             label: 'Ventas',
-            data: [], // Aquí irán los datos
+            data: [], 
             backgroundColor: 'rgba(75, 192, 192, 0.2)',
             borderColor: 'rgba(75, 192, 192, 1)',
             borderWidth: 2
